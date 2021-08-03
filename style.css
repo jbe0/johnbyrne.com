@@ -92,6 +92,11 @@ p, label{
     font-size: 24px;
 }
 
+.projects_showcase{
+    width: 40%;
+}
+
+
 @media  (max-width: 700px) {
     header li{
         display: flex;

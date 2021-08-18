@@ -1,60 +1,67 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="John Byrne's personal website.">
-    <meta name="keywords" content="John Byrne, engineer, industrial engineer, ingeniero, industrial">
-    <meta name="author" content="John Byrne">
-    <title>John Byrne | Contact</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Contact / John Byrne</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8967bb6072.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container">
+    <header>
+        <a href="index.html">John Byrne</a>
+        <nav>
+            <ul class="header-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="projects.html">Projects</a></li>
+                 <li><a href="experience.html">Experience</a></li>
+                 <li><a href="contact.html" class="current" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
     
-        
-        <div class="container">
-          <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li class="current"><a href="contact.html">Contact</a></li>
-                </ul>
-              </header>
-            </nav>
-        
-   
-
     <main>
-      <form method="post" action="contact.php"> <!data gets sent to 'contact.php'>
-        <div id="contact_box">
-          <label for="user_name">Name</label><br>
-          <input type="text" id="name" name="name" placeholder="Your name...">
+        
+        <div class="contact-header">
+            <h1>Contact Me</h1>
         </div>
-        <div id="contact_box">
-          <label for="user_email">Email</label><br>
-          <input type="email" id="email" name="email" placeholder="Email address...">
-        </div>
-        <div id="contact_box">
-          <label>Message</label><br>
-          <textarea id="message" name="message" placeholder="Message..."></textarea>
-        </div>
-        <input type="submit" value="Submit">
-      </form>
-    </main>
-  
 
+            <section class="contact">
+            <div>
+                <i class="fas fa-envelope-open"></i>
+            </div>
+
+            <form method="post" action="contact.php">
+            <div class="form">
+                
+                <label for="fname"></label>
+                <input type="text" class="input" id="name" name="firstname" placeholder="Name">
+                <input type="email" class="input" id="email" name="email" placeholder="Email">
+            <textarea name="message" id="message" class="msg" placeholder="Message"></textarea>
+            <input type="submit" value="Send">
+            </div>
+        </form>
+        </section>
+        
+    </main>
+    
 
 
 
     <footer>
-        <p>John Byrne España, Copyright &copy; 2021</p>
-    </footer>
-  </div>
+            <p>John Byrne, Copyright © 2021</p>
+
+
+        <div>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>    
+</div>
 </body>
 </html>

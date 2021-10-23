@@ -265,3 +265,45 @@ input[type=Submit]:hover {
       transform: rotateX(0)
     }
   }
+
+.input2 {
+    display: none;
+}
+
+.checkbox {
+    flex-direction: column;
+    font-size: 10pt;
+    color: azure;
+}
+
+.checkbox a {
+    color: azure;
+    text-decoration: none;
+  }
+
+.checkbox a:hover {
+    color: azure;
+    font-weight: bold;
+  }
+
+.privacy-policy{
+    text-align:left;
+    color: azure;
+    font-size: small;
+}
+
+.privacy-policy p {
+    font-size: small;
+  }
+
+.privacy-policy a {
+    color: azure;
+    text-decoration: none;
+    font-size: small;
+  }
+
+.privacy-policy a:hover {
+    color: azure;
+    font-weight: bold;
+    font-size: small;
+  }
